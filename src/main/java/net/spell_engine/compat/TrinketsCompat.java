@@ -5,8 +5,6 @@ import net.fabricmc.fabric.api.util.TriState;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.spell_engine.SpellEngineMod;
 import net.spell_engine.api.item.trinket.SpellBookTrinketItem;
@@ -35,7 +33,6 @@ public class TrinketsCompat {
                 }
                 return TriState.DEFAULT;
             });
-            Registry.register(Registries.SOUND_EVENT, SpellBookTrinketItem.EQUIP_SOUND_ID, SpellBookTrinketItem.EQUIP_SOUND);
         }
         intialized = true;
     }

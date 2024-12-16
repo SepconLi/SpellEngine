@@ -4,11 +4,6 @@
       "spell_engine:bind_spell"
     ]
   },
-  "spellbook_equip": {
-    "sounds": [
-      "spell_engine:spellbook_equip"
-    ]
-  },
 
   "generic_arcane_casting": {
     "sounds": [
